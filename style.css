@@ -202,3 +202,39 @@
   font-size: 18px;
   color: #727272;
 }
+.experiences img {
+  width: 800px;
+  height: 1000px;
+  margin-left: 710px;
+  margin-top: -2880px;
+}
+.experiences button {
+  width: 342px;
+  height: 200px;
+  padding: 20px 30px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 55px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff900e;
+}
+.skills {
+  font-size: 30px;
+}
+.button {
+  width: 342px;
+  height: 200px;
+  margin-left: 600px;
+  margin-top: -110px;
+}
+/* Section-4 */
+.facts h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.facts article {
+  font-size: 18px;
+  color: #727272;
+}
