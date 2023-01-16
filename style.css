@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&family=Roboto+Slab:wght@600;800&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -24,8 +25,7 @@
   padding-top: 50px;
   font-size: x-large;
   font-weight: 700;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .sub-navbar {
   font-size: x-large;
@@ -37,7 +37,7 @@
   font-size: 60px;
   font-weight: bolder;
   line-height: 70px;
-  font-family: serif;
+  font-family: 'Poppins', sans-serif;
 }
 .new-brand p {
   color: #727272;
@@ -84,10 +84,10 @@
 }
 .grey {
   color: #727272;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .orange {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+  font-family: 'Poppins', sans-serif;
     sans-serif;
   color: #ff900e;
   font-weight: 900;
@@ -115,9 +115,9 @@
 }
 .enjoy-life h2 {
   width: 300px;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 900;
-  font-family: Times, serif;
+  font-family: 'Poppins', sans-serif;
   padding-left: 27px;
 }
 .enjoy-life p {
@@ -133,7 +133,7 @@
   padding-top: 18px;
 }
 #themes h3 {
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 900;
   margin-bottom: 10px;
 }
@@ -177,8 +177,7 @@
   margin-left: 240px;
   margin-top: 100.08px;
   font-weight: 700;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .facts article {
   margin-left: 240px;
@@ -227,34 +226,15 @@
   font-size: 45px;
   font-weight: 700;
   color: hsl(0, 1%, 23%);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .icons p {
   text-align: center;
   font-size: 22px;
   color: #727272;
   font-weight: 600;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-/* for animation */
-/* .icons div::before {
-  content: "";
-  background-image: conic-gradient(#ff0052 20deg,transparent 120deg);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-.icons div::after{content: "Animation";
-width: 190px;
-height: 190px;
-background: #101010;
-position: absolute;
-border-radius: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-color: #ff0052;
-font-size} */
 /* Section-5 */
 #fifth-section {
   text-align: center;
@@ -264,12 +244,12 @@ font-size} */
   margin-top: 150px;
   font-size: 40px;
   font-weight: 700;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Poppins', sans-serif;
 }
 .content article {
   font-size: 18px;
   color: #727272;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Poppins', sans-serif;
 }
 .socials {
   display: flex;
@@ -278,7 +258,53 @@ font-size} */
   margin-left: 260px;
   margin-right: 260px;
 }
-/* Section-6(done!) */
+/*Bonus-Section */
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+.contact {
+  background-color: #24262b;
+  box-sizing: border-box;
+  padding: 70px 0;
+  border-radius: 7px;
+}
+.contact-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.contact-col h4{
+
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+.contact-col ul li{
+  padding-top: 20px;
+  
+}
+.contact-col ul li a{
+  text-decoration: none;
+  color:aquamarine;
+font-size: 20px;
+}
+.social-links a{
+  padding-top: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 37px;
+  color: aquamarine;
+}
+/* Section-6 */
 .footer {
   width: 1400px;
   height: 90px;
