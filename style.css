@@ -68,14 +68,13 @@
   width: 40%;
   height: 110%;
   float: left;
-  padding:20px;
 }
 .features {
   width: 537px;
   height: 304px;
   margin-left: 1092px;
   padding-right: 300px;
-  padding-top: 190px;
+  padding-top: -100px;
   margin-bottom: 800px;
 }
 .features h1 {
@@ -85,12 +84,12 @@
   padding-top: 380px;
 }
 .grey {
-  margin-left: -60px;
+  margin-left: -160px;
   color: #727272;
   font-family: 'Poppins', sans-serif;
 }
 .orange {
-  margin-left: -60px;
+  margin-left: -160px;
   font-family: 'Poppins', sans-serif;
   color: #ff900e;
   font-weight: 900;
