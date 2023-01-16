@@ -68,14 +68,14 @@
   width: 40%;
   height: 110%;
   float: left;
-  padding: 10px;
+  padding: 15px;
 }
 .features {
   width: 537px;
   height: 304px;
   margin-left: 1092px;
   padding-right: 300px;
-  padding-top: -100px;
+  padding-top: 100px;
   margin-bottom: 800px;
 }
 .features h1 {
