@@ -68,6 +68,7 @@
   width: 40%;
   height: 110%;
   float: left;
+  padding: 10px;
 }
 .features {
   width: 537px;
@@ -112,7 +113,7 @@
   width: 5px;
   height: 106px;
   margin-left: 240px;
-  margin-top: -100px;
+  margin-top: -200px;
   background: #ff900e;
 }
 .enjoy-life h2 {
